@@ -194,13 +194,7 @@ I am a Computer Science and Engineering graduate with a strong dual foundation i
 
 ---
 
-## 📈 Contribution Activity
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sarath06L&theme=tokyonight&hide_border=true&area=true" width="100%" />
-</p>
-
----
 
 ## 🐍 Contribution Snake
 
