@@ -19,9 +19,9 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Sarath06L&color=purple&style=flat-square&label=PROFILE+VIEWS" />
-  <img src="https://img.shields.io/github/followers/Sarath06L?color=purple&style=flat-square&logo=github&label=Followers" />
-  <img src="https://img.shields.io/github/stars/Sarath06L?color=purple&style=flat-square&logo=github&label=Stars" />
+  <img src="https://komarev.com/ghpvc/?username=Sarath06L&color=9333ea&style=flat-square&label=PROFILE+VIEWS" />
+  <img src="https://img.shields.io/github/followers/Sarath06L?color=9333ea&style=flat-square&logo=github&label=Followers" />
+  <img src="https://img.shields.io/github/stars/Sarath06L?color=9333ea&style=flat-square&logo=github&label=Stars" />
 </p>
 
 ---
@@ -35,7 +35,6 @@
 |                  ENGINEERING PHILOSOPHY & MINDSET                       |
 |  "Bridging software development and data analytics to drive decisions"  |
 +-------------------------------------------------------------------------+
-
 name: Generate Animation
 
 on:
