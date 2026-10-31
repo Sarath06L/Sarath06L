@@ -35,42 +35,7 @@
 |                  ENGINEERING PHILOSOPHY & MINDSET                       |
 |  "Bridging software development and data analytics to drive decisions"  |
 +-------------------------------------------------------------------------+
-name: Generate Animation
 
-on:
-  # Run automatically every 12 hours
-  schedule:
-    - cron: "0 */12 * * *" 
-  
-  # Allows to manually run the job at any time
-  workflow_dispatch:
-    
-  # Run on every push on the master/main branch
-  push:
-    branches:
-      - main
-      - master
-
-jobs:
-  generate:
-    permissions:
-      contents: write
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-
-    steps:
-      # 1. Checkout the repository
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      # 2. Generates the snake animation
-      - name: Generate the snake SVG file
-        uses: Platane/snk@v3
-        id: snake-svg
-        with:
-          github_user_name: Sarath06L
-          outputs: |
-            dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
           
       # 3. Push the generated SVG files to a branch or output folder
